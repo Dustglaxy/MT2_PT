@@ -1,8 +1,8 @@
-# MT2_PT
-# A DeepMD potential for monolayer MoTe2.
+```
+# frozen_model.pb is a DeepMD potential for monolayer MoTe2.
+
 # LAMMPS input settings for a DeepMD model
 
-```
 variable        TEMP            equal 1100
 variable        kBeV            equal 8.617333262145e-5
 variable        T_elec          equal ${TEMP}*${kBeV}
