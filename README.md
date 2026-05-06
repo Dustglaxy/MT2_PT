@@ -2,7 +2,7 @@
 # A DeepMD potential for monolayer MoTe2.
 # LAMMPS input settings for a DeepMD model
 
-'''
+```
 variable        TEMP            equal 1100
 variable        kBeV            equal 8.617333262145e-5
 variable        T_elec          equal ${TEMP}*${kBeV}
@@ -19,4 +19,4 @@ replicate 1 1 1
 # --------------------- FORCE FIELDS ---------------------
 pair_style      deepmd frozen_model.pb fparam ${T_elec}
 pair_coeff      * *
-'''
+```
