@@ -1,5 +1,5 @@
 ```
-# frozen_model.pb is a DeepMD potential for monolayer MoTe2.
+# frozen_model.pb is a temperature-dependent DeepMD potential for monolayer MoTe2.
 
 # LAMMPS input settings for a DeepMD model
 
